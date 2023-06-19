@@ -1,0 +1,182 @@
+@extends('layout/app')
+
+  @section('page-contenu')
+  <!-- header-end -->
+  <!-- offcanvas-area --> 
+  <div class="offcanvas-menu">
+    <span class="menu-close"><i class="fal fa-times"></i></span>
+        <form role="search" method="get" id="searchform"   class="searchform" action="https://wpdemo.zcubethemes.com/qeducato/">
+            <input type="text" name="s" id="search" value="" placeholder="Search"  />
+            <button><i class="fal fa-search"></i></button>
+        </form>
+      <div id="cssmenu3" class="menu-one-page-menu-container">
+        <div id="cssmenu-2" class="menu-our-links-container">
+          <ul id="menu-our-links" class="menu">
+            <li id="menu-item-2837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2837"><a href="../../index.html">Home</a></li>
+            <li id="menu-item-2839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2839"><a href="../../about-us/index.html">About Us</a></li>
+            <li id="menu-item-2841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2841"><a href="../../our-courses/index.html">Courses</a></li>
+            <li id="menu-item-2838" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2838"><a href="../../blog/index.html">Blog</a></li>
+            <li id="menu-item-2840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2840"><a href="../../contact/index.html">Contact</a>
+            </li>
+          </ul>
+        </div>     
+      </div>
+      <div id="cssmenu2" class="menu-one-page-menu-container">
+        <ul id="menu-one-page-menu-1" class="menu">
+                      
+          <li class="menu-item menu-item-type-custom menu-item-object-custom"> 
+            <span>Email Now</span>                                             
+            <strong><a href="mailto:info@example.com"> info@example.com  </a></strong>                      
+          </li>
+                        
+          <li class="menu-item menu-item-type-custom menu-item-object-custom">
+            <span>Call Now !</span>                                             
+            <strong><a href="tel:+917052101786">+91 7052 101 786</a></strong>                                      
+          </li>
+        </ul>
+      </div>   
+  </div>
+  <div class="offcanvas-overly"></div>
+  <!-- offcanvas-area:end -->
+
+  <div id="content" class="site-content"> 
+
+    <section class="project-detail">
+      <div class="container">
+        <!-- Lower Content -->
+        <div class="lower-content">
+          <div class="row">
+            <div class="text-column col-lg-9 col-md-9 col-sm-12">
+              <!-- <div class="upper-box">
+                <div class="single-item-carousel owl-carousel owl-theme">
+                  <figure class="image"> <img width="1180" height="664" src="../assets/uploads/2023/03/couress-img-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" decoding="async" loading="lazy" /> </figure>
+                </div>
+              </div> -->
+              <div class="inner-column">
+                <h3>Admission</h3>
+                  <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio tempore voluptatibus illo, autem animi delectus officia vero, pariatur doloribus, deleniti est quibusdam distinctio accusamus. Nihil facere ullam quos quas reiciendis.</p>
+                <div class="faq-wrap pt-30 wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                  <h3>Conditions d'accés :</h3>
+
+                  <div class="accordion" id="accordionExample">
+                    <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two"  >
+                                  Licence 1                                      </button>
+                          </h2>
+                      </div>
+                      <div id="two" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two2"  >
+                                  Licence 2                                    </button>
+                          </h2>
+                      </div>
+                      <div id="two2" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two3"  >
+                                  Licence 3                                     </button>
+                          </h2>
+                      </div>
+                      <div id="two3" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two4"  >
+                                  Master 1                                      </button>
+                          </h2>
+                      </div>
+                      <div id="two4" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two5"  >
+                                  Master 2                                      </button>
+                          </h2>
+                      </div>
+                      <div id="two5" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two6"  >
+                                  Transfert                                    </button>
+                          </h2>
+                      </div>
+                      <div id="two6" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <h2 class="mb-0">
+                              <button class="faq-btn " type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#two7"  >
+                                  Reprise                                     </button>
+                          </h2>
+                      </div>
+                      <div id="two7" class="collapse " data-bs-parent="#accordionExample">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corporis autem doloremque dolor nulla minima commodi, magnam odit numquam nobis ut! Doloribus modi corrupti maxime cupiditate. In ullam qui facere?</p> 
+                      </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- BLOC DES PROGRAMMES -->
+            <div class="col-lg-3">
+              <aside class="sidebar-widget info-column">
+                <div class="inner-column3">
+                  <h3 class="text-center"> Scolarité </h3>
+                  <ul class="project-info clearfix">
+                    <li>
+                      <!-- <div class="priceing">
+                        <strong> xxxxx </strong>
+                        <sub> xxxxx</sub>
+                        <span class="discont"> xxxxx</span>
+                      </div> -->
+                    </li>
+                    <li>
+                      <span class="icon fal fa-user"></span><h5 class="text-center "> <a href="admissions"><strong>Admission</strong></a></li> </h4>
+                    <li>
+                      <span class="icon fal fa-book"></span> <h6> <a href="inscriptions"> <strong> Inscription et Ré-inscription </strong></a></h6>               </li>
+                    <li>
+                    
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Project Detail --> 
+</div
+><!-- #content -->
+
+@endsection
